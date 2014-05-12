@@ -7,15 +7,32 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeViewController.h"
+#import "HomeEditingViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //Setup the window
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    //Create tab bar controller
+    _tabBarController = [[UITabBarController alloc] init];
+    
+    //Create home view controller
+    HomeViewController *homeVC = [[HomeViewController alloc] initWithNibName:NSStringFromClass([HomeViewController class]) bundle:nil];
+    
+    //Create home editing view controller
+    HomeEditingViewController *editingVC = [[HomeEditingViewController alloc] initWithNibName:NSStringFromClass([HomeEditingViewController class]) bundle:nil];
+    
+    _tabBarController.viewControllers = @[homeVC, editingVC];
+    
+    [self.window setRootViewController:_tabBarController];
+    
+    
     return YES;
 }
 

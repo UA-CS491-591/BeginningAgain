@@ -7,6 +7,7 @@
 //
 
 #import "HomeEditingViewController.h"
+#import "HouseEditorView.h"
 
 @interface HomeEditingViewController ()
 
@@ -19,6 +20,8 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.tabBarItem.title = @"Editor";
+        self.tabBarItem.image = [UIImage imageNamed:@"Pencil"];
     }
     return self;
 }
@@ -27,6 +30,15 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    //Create sample model
+    House *house = [[House alloc] init];
+    house.Name = @"CS491 Lounge";
+    house.houseHeight = 123;
+    
+    //Create sample view
+    HouseEditorView *houseView = [[HouseEditorView alloc] initWithFrame:CGRectMake(50, 50, 200, 100) house:house];
+    [self.view addSubview:houseView];
 }
 
 - (void)didReceiveMemoryWarning

@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "House.h"
 
 @interface HouseView : UIView
 
+- (id)initWithFrame:(CGRect)frame house:(House *)house;
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+#import "HouseView.h"
 
 @interface HomeViewController ()
 
@@ -19,6 +20,8 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.tabBarItem.title = @"Home";
+        self.tabBarItem.image = [UIImage imageNamed:@"Home"];
     }
     return self;
 }
@@ -27,6 +30,15 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    //Create sample model
+    House *house = [[House alloc] init];
+    house.Name = @"CS491 Lounge";
+    house.houseHeight = 123;
+    
+    //Create sample view
+    HouseView *houseView = [[HouseView alloc] initWithFrame:CGRectMake(50, 50, 200, 100) house:house];
+    [self.view addSubview:houseView];
 }
 
 - (void)didReceiveMemoryWarning

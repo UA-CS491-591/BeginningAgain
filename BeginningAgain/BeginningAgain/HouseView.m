@@ -15,6 +15,25 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
+        self.backgroundColor = [UIColor blackColor];
+    }
+    return self;
+}
+
+- (id)initWithFrame:(CGRect)frame house:(House *)house
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        // Initialization code
+        self.backgroundColor = [UIColor whiteColor];
+        
+        //Create name label
+        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 30)];
+        label.textColor = [UIColor darkTextColor];
+        label.text = house.Name;
+        
+        //Add name label
+        [self addSubview:label];
     }
     return self;
 }

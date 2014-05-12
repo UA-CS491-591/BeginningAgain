@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "House.h"
 
 @interface HouseEditorView : UIView
+@property (weak, nonatomic) IBOutlet UITextField *HouseNameTextField;
 
+- (id)initWithFrame:(CGRect)frame house:(House *)house;
 @end

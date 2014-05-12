@@ -19,6 +19,16 @@
 		1FBCE107192106820065E3BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBCE0EF192106820065E3BB /* UIKit.framework */; };
 		1FBCE10F192106820065E3BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FBCE10D192106820065E3BB /* InfoPlist.strings */; };
 		1FBCE111192106820065E3BB /* BeginningAgainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCE110192106820065E3BB /* BeginningAgainTests.m */; };
+		868F9F9E19210E12005C809B /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = 868F9F9D19210E12005C809B /* House.m */; };
+		868F9FA21921104F005C809B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 868F9FA01921104F005C809B /* HomeViewController.m */; };
+		868F9FA31921104F005C809B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 868F9FA11921104F005C809B /* HomeViewController.xib */; };
+		868F9FA519211207005C809B /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 868F9FA419211207005C809B /* Home.png */; };
+		868F9FAB1921124D005C809B /* HomeEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 868F9FA91921124D005C809B /* HomeEditingViewController.m */; };
+		868F9FAC1921124D005C809B /* HomeEditingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 868F9FAA1921124D005C809B /* HomeEditingViewController.xib */; };
+		868F9FAE192112AB005C809B /* Pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 868F9FAD192112AB005C809B /* Pencil.png */; };
+		868F9FB119211371005C809B /* HouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 868F9FB019211371005C809B /* HouseView.m */; };
+		868F9FB619211580005C809B /* HouseEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 868F9FB519211580005C809B /* HouseEditorView.m */; };
+		868F9FB819211592005C809B /* HouseEditorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 868F9FB719211592005C809B /* HouseEditorView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,21 @@
 		1FBCE10C192106820065E3BB /* BeginningAgainTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeginningAgainTests-Info.plist"; sourceTree = "<group>"; };
 		1FBCE10E192106820065E3BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1FBCE110192106820065E3BB /* BeginningAgainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeginningAgainTests.m; sourceTree = "<group>"; };
+		868F9F9C19210E12005C809B /* House.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
+		868F9F9D19210E12005C809B /* House.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
+		868F9F9F1921104F005C809B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		868F9FA01921104F005C809B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		868F9FA11921104F005C809B /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		868F9FA419211207005C809B /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		868F9FA81921124D005C809B /* HomeEditingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeEditingViewController.h; sourceTree = "<group>"; };
+		868F9FA91921124D005C809B /* HomeEditingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeEditingViewController.m; sourceTree = "<group>"; };
+		868F9FAA1921124D005C809B /* HomeEditingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeEditingViewController.xib; sourceTree = "<group>"; };
+		868F9FAD192112AB005C809B /* Pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pencil.png; sourceTree = "<group>"; };
+		868F9FAF19211371005C809B /* HouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseView.h; sourceTree = "<group>"; };
+		868F9FB019211371005C809B /* HouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseView.m; sourceTree = "<group>"; };
+		868F9FB419211580005C809B /* HouseEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseEditorView.h; sourceTree = "<group>"; };
+		868F9FB519211580005C809B /* HouseEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseEditorView.m; sourceTree = "<group>"; };
+		868F9FB719211592005C809B /* HouseEditorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HouseEditorView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +134,9 @@
 			children = (
 				1FBCE0FA192106820065E3BB /* AppDelegate.h */,
 				1FBCE0FB192106820065E3BB /* AppDelegate.m */,
+				868F9F9A19210BA1005C809B /* Models */,
+				868F9F9919210B99005C809B /* Views */,
+				868F9F9819210B90005C809B /* Controllers */,
 				1FBCE0FD192106820065E3BB /* Images.xcassets */,
 				1FBCE0F2192106820065E3BB /* Supporting Files */,
 			);
@@ -118,6 +146,7 @@
 		1FBCE0F2192106820065E3BB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				868F9F9619210B80005C809B /* Images */,
 				1FBCE0F3192106820065E3BB /* BeginningAgain-Info.plist */,
 				1FBCE0F4192106820065E3BB /* InfoPlist.strings */,
 				1FBCE0F7192106820065E3BB /* main.m */,
@@ -142,6 +171,89 @@
 				1FBCE10D192106820065E3BB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		868F9F9619210B80005C809B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				868F9F9719210B87005C809B /* Tab Bar icons */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		868F9F9719210B87005C809B /* Tab Bar icons */ = {
+			isa = PBXGroup;
+			children = (
+				868F9FAD192112AB005C809B /* Pencil.png */,
+				868F9FA419211207005C809B /* Home.png */,
+			);
+			name = "Tab Bar icons";
+			sourceTree = "<group>";
+		};
+		868F9F9819210B90005C809B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				868F9FA719211240005C809B /* Home Editing */,
+				868F9FA619211239005C809B /* Home Viewing */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		868F9F9919210B99005C809B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				868F9FB319211575005C809B /* House Editor View */,
+				868F9FB21921156B005C809B /* House View */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		868F9F9A19210BA1005C809B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				868F9F9C19210E12005C809B /* House.h */,
+				868F9F9D19210E12005C809B /* House.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		868F9FA619211239005C809B /* Home Viewing */ = {
+			isa = PBXGroup;
+			children = (
+				868F9F9F1921104F005C809B /* HomeViewController.h */,
+				868F9FA01921104F005C809B /* HomeViewController.m */,
+				868F9FA11921104F005C809B /* HomeViewController.xib */,
+			);
+			name = "Home Viewing";
+			sourceTree = "<group>";
+		};
+		868F9FA719211240005C809B /* Home Editing */ = {
+			isa = PBXGroup;
+			children = (
+				868F9FA81921124D005C809B /* HomeEditingViewController.h */,
+				868F9FA91921124D005C809B /* HomeEditingViewController.m */,
+				868F9FAA1921124D005C809B /* HomeEditingViewController.xib */,
+			);
+			name = "Home Editing";
+			sourceTree = "<group>";
+		};
+		868F9FB21921156B005C809B /* House View */ = {
+			isa = PBXGroup;
+			children = (
+				868F9FAF19211371005C809B /* HouseView.h */,
+				868F9FB019211371005C809B /* HouseView.m */,
+			);
+			name = "House View";
+			sourceTree = "<group>";
+		};
+		868F9FB319211575005C809B /* House Editor View */ = {
+			isa = PBXGroup;
+			children = (
+				868F9FB419211580005C809B /* HouseEditorView.h */,
+				868F9FB519211580005C809B /* HouseEditorView.m */,
+				868F9FB719211592005C809B /* HouseEditorView.xib */,
+			);
+			name = "House Editor View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +331,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868F9FAE192112AB005C809B /* Pencil.png in Resources */,
+				868F9FB819211592005C809B /* HouseEditorView.xib in Resources */,
+				868F9FAC1921124D005C809B /* HomeEditingViewController.xib in Resources */,
+				868F9FA519211207005C809B /* Home.png in Resources */,
 				1FBCE0F6192106820065E3BB /* InfoPlist.strings in Resources */,
 				1FBCE0FE192106820065E3BB /* Images.xcassets in Resources */,
+				868F9FA31921104F005C809B /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +356,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868F9F9E19210E12005C809B /* House.m in Sources */,
+				868F9FB119211371005C809B /* HouseView.m in Sources */,
 				1FBCE0FC192106820065E3BB /* AppDelegate.m in Sources */,
+				868F9FAB1921124D005C809B /* HomeEditingViewController.m in Sources */,
 				1FBCE0F8192106820065E3BB /* main.m in Sources */,
+				868F9FB619211580005C809B /* HouseEditorView.m in Sources */,
+				868F9FA21921104F005C809B /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +559,7 @@
 				1FBCE116192106820065E3BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FBCE117192106820065E3BB /* Build configuration list for PBXNativeTarget "BeginningAgainTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +568,7 @@
 				1FBCE119192106820065E3BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
